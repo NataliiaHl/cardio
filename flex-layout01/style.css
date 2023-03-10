@@ -18,15 +18,25 @@ body {
 }
 .hlavni {
   background-color: #f1c40f;
+  order: 2;
+  flex-basis: 55%;
 }
 .levy {
   background-color: #3498db;
+  order: 1;
+  flex-basis: 25%;
 }
 .pravy {
   background-color: #e74c3c;
+  order: 3;
+  flex-basis: 20%;
 }
 .paticka {
   background-color: #9b59b6;
+}
+
+.kontejner {
+  display: flex;
 }
 
 /* ---------------------------------------------------- */
