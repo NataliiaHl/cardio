@@ -11,9 +11,18 @@ body {
 }
 
 .horni { background-color:#f1c40f ;}
-.prvni { background-color: #2ecc71;}
-.druhy { background-color: #e74c3c;}
-.treti { background-color: #8e44ad;}
+.prvni { background-color: #2ecc71; flex: 1 1 0;}
+.druhy { background-color: #e74c3c; flex: 1 1 0;}
+.treti { background-color: #8e44ad; flex: 1 1 0;}
+
+.kontejner {
+    display: flex;
+    flex-direction: column;
+}
+
+.dolni {
+    display: flex;
+}
 
 /* ---------------------------------------------------- */
 
