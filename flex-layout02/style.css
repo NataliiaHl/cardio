@@ -18,9 +18,20 @@ body {
 }
 .horni {
   background-color: #2ecc71;
+  flex-grow: 1;
 }
 .dolni {
   background-color: #e74c3c;
+  flex-grow: 2;
+}
+
+.kontejner {
+  display: flex;
+}
+
+.pravy {
+  display: flex;
+  flex-direction: column;
 }
 
 /* ---------------------------------------------------- */
