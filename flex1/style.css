@@ -8,15 +8,16 @@
     min-height: 100px;
 }
 
-.prvni { background-color: #2ecc71;}
-.druhy { background-color: #f1c40f;}
-.treti { background-color: #3498db;}
-.ctvrty { background-color: #e74c3c;}
+.prvni { background-color: #2ecc71; order: 3; flex-basis: 25%;}
+.druhy { background-color: #f1c40f; order: 1; flex-basis: 25%;}
+.treti { background-color: #3498db; order: 4; flex-basis: 25%;}
+.ctvrty { background-color: #e74c3c; order: 2; flex-basis: 25%;}
 
 .kontejner {
     padding: 10px;
     border: 1px dashed red;
     background-color: #ffffcc;
+    display: flex;
 }
 
 /* ---------------------------------------------------- */
